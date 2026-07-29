@@ -1,0 +1,4 @@
+interface:
+  display_name: "公文函写作"
+  short_description: "起草、改写、审查14种党政机关公文函件"
+  default_prompt: "使用 $official-letter-skill 先判断函类型和行政目的；起草/改写/审查函件，守住一函一事、零编造、平行文语气三条底线。"
