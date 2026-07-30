@@ -34,6 +34,7 @@
 - **AI 痕迹检测** — 清理套话、空话、公式化表达
 - **零编造** — 不添加用户未提供的事实和数据
 - **格式联动** — 起草完成后可调用 `$document-format-skill` 做格式终审
+- **SuperGrill 质询引擎** — 乔哈里视窗驱动，动手前用最少轮次锁定最有影响的决策边界；区域诊断→理解锁定→结构化多选→增量验证→硬关卡退出，不猜、不烦、不留暗箱
 
 ## 五条底线
 
@@ -175,6 +176,9 @@ git clone https://github.com/Bugu1012/official-letter-skill.git ~/.claude/skills
 - [Bugu1012/Meeting-minutes-writing-handbook](https://github.com/Bugu1012/Meeting-minutes-writing-handbook) — 会议纪要人工写作手册（本手册姊妹篇）
 
 详细借鉴分析见 `references/开源技能参考借鉴.md`。
+
+**质询式澄清**
+- SuperGrill — 乔哈里视窗（Johari Window）驱动的结构化质询式澄清协议。将信息盲区分为开放/隐藏/盲区/未知四区域，按区域动态选择策略；通过理解锁定硬关卡、每次一问的结构化多选、保守推荐优先、3 轮上限和注入免疫，确保在动手之前用最少轮次确认最有影响的决策边界，杜绝猜测式起草。
 
 ## 规范依据
 
