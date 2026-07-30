@@ -85,10 +85,10 @@ flowchart LR
 
 ```bash
 # Codex
-git clone https://github.com/YOUR_USERNAME/official-letter-skill.git ~/.codex/skills/official-letter-skill
+git clone https://github.com/Bugu1012/official-letter-skill.git ~/.codex/skills/official-letter-skill
 
 # Claude Code
-git clone https://github.com/YOUR_USERNAME/official-letter-skill.git ~/.claude/skills/official-letter-skill
+git clone https://github.com/Bugu1012/official-letter-skill.git ~/.claude/skills/official-letter-skill
 ```
 
 ### 2. 触发
@@ -154,6 +154,39 @@ git clone https://github.com/YOUR_USERNAME/official-letter-skill.git ~/.claude/s
 - 不替代审核签发
 - 不做便函
 - 不做批量生成
+
+## 致谢与参考
+
+本技能在开发过程中参考了以下开源项目和方法论：
+
+**同类技能**
+- [zhaohui-yang/official-document-drafting](https://github.com/zhaohui-yang/official-document-drafting) — 函 spec：起笔定式、谋篇原则、语域控制、要素分层
+- [Liuxiangjian-ai/official-document-skill](https://github.com/Liuxiangjian-ai/official-document-skill) — 文种表、行文关系、表达模式
+- [KaguraNanaga/official-document-writing-skill](https://github.com/KaguraNanaga/official-document-writing-skill) — 函模板、结语用语表、质量检查清单
+
+**格式与工程参考**
+- [wzbwan/gongwen-format-skill](https://github.com/wzbwan/gongwen-format-skill) — 受控 Markdown 协议设计
+- [pamelaaaaa1218/gongwen-format-skill](https://github.com/pamelaaaaa1218/gongwen-format-skill) — 国企公文格式实践
+
+**同系列技能**
+- [Bugu1012/document-format-skill](https://github.com/Bugu1012/document-format-skill) — 公文格式修订技能（本技能格式终审联动对象）
+- [Bugu1012/Meeting-minutes](https://github.com/Bugu1012/Meeting-minutes) — 会议纪要技能（方法论参照：五轮审查、事由台账、humanizer 语言自然化）
+- [Bugu1012/Meeting-minutes-writing-handbook](https://github.com/Bugu1012/Meeting-minutes-writing-handbook) — 会议纪要人工写作手册（本手册姊妹篇）
+
+详细借鉴分析见 `references/开源技能参考借鉴.md`。
+
+## 规范依据
+
+- GB/T 9704-2012《党政机关公文格式》（[国家标准全文公开系统](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=F3CC9BEF482524C895FDA7A08BB4A70E)）
+- 《党政机关公文处理工作条例》（中办发〔2012〕14号）
+
+---
+
+<div align="center">
+
+**理解目的 · 锁定要素 · 控制语气 · 一函一事**
+
+</div>
 
 ## License
 
