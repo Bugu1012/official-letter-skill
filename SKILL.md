@@ -35,7 +35,7 @@ description: 党政机关公文函写作技能。用于起草、改写、审查1
 ### 一、判断当前阶段
 
 - **起草**：用户有事由/背景，需要从头写函。读取 `references/函的分类与适用.md`、`references/正文结构.md`、`references/撰写思路.md`、`assets/函起草模板.md`。
-- **改写**：用户提供草稿/笔记，需要改写为规范函件。读取 `references/语气与措辞.md`、`references/句式库.md`、`references/AI写函方法论.md`。
+- **改写**：用户提供草稿/笔记，需要改写为规范函件。读取 `references/语气与措辞.md`、`references/句式库.md`、`references/AI写函方法论.md`、`references/函语言自然化.md`。
 - **审查**：用户有成稿，需要检查。读取 `assets/函审查清单.md`、`references/常见错误图谱.md`、`references/文种辨析.md`。审查时首先检查文种是否正确。
 
 ### 二、文种确认与辨析

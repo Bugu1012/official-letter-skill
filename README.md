@@ -108,7 +108,7 @@ git clone https://github.com/Bugu1012/official-letter-skill.git ~/.claude/skills
 ├── 技能说明.md                  # 维护者说明
 ├── .gitignore
 ├── agents/openai.yaml
-├── references/                 # 16 个规则文件
+├── references/                 # 17 个规则文件
 │   ├── 资料导航.md
 │   ├── 规范依据.md
 │   ├── 函的分类与适用.md
@@ -124,7 +124,8 @@ git clone https://github.com/Bugu1012/official-letter-skill.git ~/.claude/skills
 │   ├── 机关制度适配.md
 │   ├── 开源技能参考借鉴.md
 │   ├── 样例索引使用说明.md
-│   └── 个人助手方法论适配.md
+│   ├── 个人助手方法论适配.md
+│   └── 函语言自然化.md
 ├── assets/                     # 9 个模板文件
 │   ├── 函起草模板.md
 │   ├── 函审查清单.md

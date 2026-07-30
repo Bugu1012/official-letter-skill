@@ -74,3 +74,11 @@
 ```
 
 > 注：实际使用时，技能应将事由台账中的要素自动填入对应字段，而非要求用户手动填写全部信息。
+
+## 六、语言自然化
+
+起草或改写完成后，执行语言自然化处理：消除套话、空泛铺垫、机械排比和 AI 高频词。
+
+完整方法论见 `references/函语言自然化.md`（含处理次序、锁定清单、常见机械表达表、改前/改后对照、两遍审校和硬性退回条件）。
+
+方法来源：[blader/humanizer](https://github.com/blader/humanizer)、[op741lst/Humanizer-zh](https://github.com/op741lst/Humanizer-zh)、[onlyLT/wow-gongwen-writing](https://github.com/onlyLT/wow-gongwen-writing)，经 [Bugu1012/Meeting-minutes](https://github.com/Bugu1012/Meeting-minutes) 适配后再次适配函场景。
